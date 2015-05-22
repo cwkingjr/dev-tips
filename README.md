@@ -1,7 +1,3 @@
-# dev-tips
-Just a place I stash various dev examples
-
-
 ###DJANGO TIPS
 
 ####start a new project without extra project folder
@@ -30,7 +26,7 @@ Just a place I stash various dev examples
 ####list current dependencies (to add to requirements.txt)
     pip freeze --local
 
-####use django_extensions to create diagram of models
+####use django-extensions to create diagram of models
     python ./manage.py graph_models -a -o myapp_models.png
 
 ####auto-load models into shell
@@ -39,11 +35,12 @@ Just a place I stash various dev examples
 ###GIT TIPS
 
 #### misc
+    git checkout -b <newbranchname> 
     git add .
     git add filename
+    git branch
     git status
     git commit -m "log message"
-    git commit -a -m "log message"
 
 ####push local master to origin master
 -u = set the local up to track from the origin
@@ -82,7 +79,9 @@ Not sure about this thing...didn't seem to work
 ###TEXT PROCESSING TIPS
 
 ####replace terms within several files at once
-    rpl "Original." "Replacement." *
+    rpl "Original." "Replacement." fileglob
+    rpl "employees" "members." *.html
 
 ####rename portions of the file name for several files at once
-    rename 's/from/to/' *
+    rename 's/from/to/' fileglob
+    rename 's/employees/members/' module/*.html
