@@ -46,7 +46,8 @@ Just a place I stash various dev examples
     git commit -a -m "log message"
 
 ####push local master to origin master
--u set the local up to track from the master
+-u = set the local up to track from the origin
+
     git push -u origin master
 
 ####short log listing
@@ -63,6 +64,7 @@ Just a place I stash various dev examples
 
 ####work within a specific environment
 must be called for each shell
+
     workon <envname>
 
 ####close out of a specific environment
@@ -74,6 +76,7 @@ must be called for each shell
 
 ####to upgrade everything
 Not sure about this thing...didn't seem to work
+
     pip freeze --local | grep -v '^\-e' | cut -d= -f1  | xargs pip install -U
 
 ###TEXT PROCESSING TIPS
@@ -82,4 +85,4 @@ Not sure about this thing...didn't seem to work
     rpl "Original." "Replacement." *
 
 ####rename portions of the file name for several files at once
-    rename 's/project/employee/' *
+    rename 's/from/to/' *
