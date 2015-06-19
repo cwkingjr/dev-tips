@@ -58,6 +58,11 @@
 
 ####Install a specific python version
     mkvirtualenv -p /usr/bin/python2.7 <newenvironmentname>
+    mkvirtualenv -p /usr/bin/python3 <python3environment>
+
+####insert these into your .bashrc
+    export WORKON_HOME=~/Envs
+    source /usr/local/bin/virtualenvwrapper.sh
 
 ####work within a specific environment
 must be called for each shell
@@ -66,6 +71,9 @@ must be called for each shell
 
 ####close out of a specific environment
     deactivate
+
+####list site packages
+    lssitepackages
 
 ####installing packages into environment
     pip install --no-site-packages -r requirements/dev.txt
