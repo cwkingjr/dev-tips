@@ -93,3 +93,20 @@ Not sure about this thing...didn't seem to work
 ####rename portions of the file name for several files at once
     rename 's/from/to/' fileglob
     rename 's/employees/members/' module/*.html
+
+###Installing Postgres 
+Outside virtualenv
+    # Postgresql
+    sudo apt-get install postgresql postgresql-contrib
+    # Find version number
+    dpkg -l postgres*
+    # Devel 
+    sudo apt-get install postgresql-server-dev-9.3
+    # Debian/Ubuntu (choose based on python version)
+    sudo apt-get install python-dev
+    sudo apt-get install python3-dev
+    # Others (choose based on python version)
+    sudo apt-get install python-devel
+    sudo apt-get install python3-devel
+Inside virtualenv
+    pip install psycopg2
