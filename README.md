@@ -54,6 +54,10 @@
     git tag -a "v0.1" -m "Version 0.1"
     git push origin --tags
 
+####delete local and remote branches
+    git branch -d <localbranch>
+    git push origin --delete <remotebranch>
+
 ###VIRTUAL ENVIRONMENT TIPS
 
 ####Install a specific python version
