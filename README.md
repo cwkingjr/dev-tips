@@ -120,7 +120,7 @@ Inside virtualenv
 #### Psycopg2
     pip install psycopg2
 
-### INSTALLING PYTHON3
+### BUILDING AND INSTALLING PYTHON3
 
 #### With Sqlite3
     sudo apt-get install libsqlite3.0 libsqlite3-dev
