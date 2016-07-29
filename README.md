@@ -128,7 +128,7 @@ Inside virtualenv
     make
     sudo make install
     
-### Node Tips
+### NODE TIPS
     sudo brew update
     brew install (or upgrade) node
     npm install -g express-generator
