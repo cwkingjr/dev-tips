@@ -128,5 +128,15 @@ Inside virtualenv
     make
     sudo make install
     
+#### Node Tips
+    sudo brew update
+    brew install (or upgrade) node
+    npm install -g express-generator
+    express newProject
+    cd newProject
+    npm install
+    npm start
+    
+    
     
 
