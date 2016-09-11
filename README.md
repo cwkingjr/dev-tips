@@ -120,12 +120,20 @@ Inside virtualenv
 #### Psycopg2
     pip install psycopg2
 
-###INSTALLING POSTGRES ON MAC
+### INSTALLING POSTGRES ON MAC
 
     brew update
     brew upgrade
     brew install postgresql
     brew info postgresql
+
+### POSTGRES COMMANDS
+    initdb /usr/local/var/postgres -E utf8
+    pg_ctl -D /usr/local/var/postgres status
+    pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+    pg_ctl -D /usr/local/var/postgres stop -s -m fast
+    createdb db_name
+    psql -d db_name
 
 ### BUILDING AND INSTALLING PYTHON3
 
