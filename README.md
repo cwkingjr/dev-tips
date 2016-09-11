@@ -14,7 +14,7 @@
     python ./manage.py makemigrations <appname>
     python ./manage.py migrate
 
-####test everything 
+####test everything
     python ./manage.py test
 
 ####test one app/module
@@ -35,7 +35,7 @@
 ###GIT TIPS
 
 #### misc
-    git checkout -b <newbranchname> 
+    git checkout -b <newbranchname>
     git add .
     git add filename
     git branch
@@ -98,7 +98,7 @@ Not sure about this thing...didn't seem to work
     rename 's/from/to/' fileglob
     rename 's/employees/members/' module/*.html
 
-###INSTALLING POSTGRES 
+###INSTALLING POSTGRES ON LINUX
 
 Outside virtualenv
 
@@ -106,7 +106,7 @@ Outside virtualenv
     sudo apt-get install postgresql postgresql-contrib
 #### Find version number
     dpkg -l postgres*
-#### Devel 
+#### Devel
     sudo apt-get install postgresql-server-dev-9.3
 #### Debian/Ubuntu (choose based on python version)
     sudo apt-get install python-dev
@@ -120,6 +120,12 @@ Inside virtualenv
 #### Psycopg2
     pip install psycopg2
 
+###INSTALLING POSTGRES ON MAC
+
+    brew update
+    brew upgrade
+    brew install postgresql
+
 ### BUILDING AND INSTALLING PYTHON3
 
 #### With Sqlite3
@@ -127,7 +133,7 @@ Inside virtualenv
     ./configure
     make
     sudo make install
-    
+
 ### NODE TIPS
     sudo brew update
     brew install (or upgrade) node
@@ -136,7 +142,3 @@ Inside virtualenv
     cd newProject
     npm install
     npm start
-    
-    
-    
-
