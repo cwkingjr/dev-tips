@@ -125,6 +125,7 @@ Inside virtualenv
     brew update
     brew upgrade
     brew install postgresql
+    brew info postgresql
 
 ### BUILDING AND INSTALLING PYTHON3
 
