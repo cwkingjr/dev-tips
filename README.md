@@ -151,3 +151,11 @@ Inside virtualenv
     cd newProject
     npm install
     npm start
+
+### COOL NODE LIBS
+    eslint
+    http-status-codes
+    jasmine (tests)
+    ramda (functional utilities)
+    request
+    rootpath (set root of path to eliminate ../../../somefile)
