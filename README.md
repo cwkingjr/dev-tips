@@ -132,8 +132,10 @@ Inside virtualenv
     pg_ctl -D /usr/local/var/postgres status
     pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
     pg_ctl -D /usr/local/var/postgres stop -s -m fast
-    createdb db_name
+    createuser user_name (user is alias for role with login)
+    CREATE ROLE user_name WITH LOGIN;
     psql -d db_name
+    psql -U postgres -c "GRANT ALL PRIVILEGES ON DATABASE db_name to user_name;"
 
 ### BUILDING AND INSTALLING PYTHON3
 
