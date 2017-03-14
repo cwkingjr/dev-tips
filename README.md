@@ -64,11 +64,6 @@
     mkvirtualenv -p /usr/bin/python2.7 <newenvironmentname>
     mkvirtualenv -p /usr/bin/python3 <python3environment>
 
-#### Create a new python3 venv
-    mkdir myproject
-    cd myproject
-    python3 -m venv venv
-
 #### insert these into your .bashrc
     export WORKON_HOME=~/Envs
     source /usr/local/bin/virtualenvwrapper.sh
@@ -83,6 +78,11 @@ must be called for each shell
 
 #### list site packages
     lssitepackages
+
+#### Create a new python3 venv outside virtualenvwrapper
+    mkdir myproject
+    cd myproject
+    python3 -m venv venv
 
 #### installing packages into environment
     pip install --no-site-packages -r requirements/dev.txt
