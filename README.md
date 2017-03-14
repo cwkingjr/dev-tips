@@ -64,6 +64,11 @@
     mkvirtualenv -p /usr/bin/python2.7 <newenvironmentname>
     mkvirtualenv -p /usr/bin/python3 <python3environment>
 
+####Create a new python3 venv
+    mkdir myproject
+    cd myproject
+    python3 -m venv venv
+
 ####insert these into your .bashrc
     export WORKON_HOME=~/Envs
     source /usr/local/bin/virtualenvwrapper.sh
