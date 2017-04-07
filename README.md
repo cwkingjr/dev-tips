@@ -150,6 +150,13 @@ Inside virtualenv
     make
     sudo make install
 
+### PYTHON TIPS
+
+#### Getting package info from within a script
+    import pkg_resources
+    pkg_resources.get_distribution('<package name>').version 
+    pkg_resources.get_distribution('wheel').version 
+
 ### NODE TIPS
     sudo brew update
     brew install (or upgrade) node
