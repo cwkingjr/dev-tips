@@ -158,7 +158,7 @@ Inside virtualenv
     pkg_resources.get_distribution('wheel').version 
 
 ### NODE TIPS
-    sudo brew update
+    brew update
     brew install (or upgrade) node
     npm install -g express-generator
     express newProject
