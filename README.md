@@ -166,7 +166,9 @@ Inside virtualenv
 ### COOL NODE LIBS
     eslint
     http-status-codes
+    husky (git precommit hook)
     jasmine (tests)
+    nyc (coverage checks)
     ramda (functional utilities)
     request
     rootpath (set root of path to eliminate ../../../somefile)
