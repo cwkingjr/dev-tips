@@ -168,7 +168,7 @@ Inside virtualenv
     http-status-codes
     husky (git precommit hook)
     jasmine (tests)
-    nyc (coverage checks)
+    nyc (istanbul coverage checks)
     ramda (functional utilities)
     request
     rootpath (set root of path to eliminate ../../../somefile)
