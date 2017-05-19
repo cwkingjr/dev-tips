@@ -79,7 +79,7 @@ must be called for each shell
 #### Create a new python3 venv outside virtualenvwrapper
     mkdir myproject
     cd myproject
-    python3 -m venv venv
+    python3 -m venv myvenvname
 
 #### installing packages into environment
     pip install --no-site-packages -r requirements/dev.txt
