@@ -7,9 +7,6 @@
     python ./manage.py startapp appname
     mkdir -p <appname>/templates/<appname>
 
-#### normal, non south, sync db
-    python ./manage.py syncdb
-
 #### newer migrations
     python ./manage.py makemigrations <appname>
     python ./manage.py migrate
