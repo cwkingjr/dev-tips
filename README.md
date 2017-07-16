@@ -81,6 +81,10 @@ must be called for each shell
     cd myproject
     python3 -m venv myvenvname
 
+#### And add these to your .bash_profile
+    alias ae='deactivate &> /dev/null; source ./venv/bin/activate'
+    alias de='deactivate'
+
 #### installing packages into environment
     pip install --no-site-packages -r requirements/dev.txt
     pip install -h
