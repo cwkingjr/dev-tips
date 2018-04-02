@@ -29,32 +29,6 @@
 #### auto-load models into shell
     python ./manage.py shell_plus
 
-### GIT TIPS
-
-#### misc
-    git checkout -b <newbranchname>
-    git add .
-    git add filename
-    git branch
-    git status
-    git commit -m "log message"
-
-#### push local master to origin master
--u = set the local up to track from the origin
-
-    git push -u origin master
-
-#### short log listing
-    git log --abbrev-commit --pretty=oneline
-
-#### tag releases
-    git tag -a "v0.1" -m "Version 0.1"
-    git push origin --tags
-
-#### delete local and remote branches
-    git branch -d <localbranch>
-    git push origin --delete <remotebranch>
-
 ### VIRTUAL ENVIRONMENT TIPS
 
 #### Install a specific python version
